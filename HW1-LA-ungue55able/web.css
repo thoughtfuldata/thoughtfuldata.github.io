@@ -1,0 +1,190 @@
+body{
+  margin:0;
+  padding:0;
+  width: 1500px;
+  background-color: #262626;
+  font-family: Comfortaa;
+}
+
+.top-line {
+  border-top:1px solid rgb(255, 136, 0);
+  position: sticky;
+  top: 0;
+}
+nav {
+  background-color: black;
+  text-align: center;
+}
+
+nav a {
+  display: inline-block;
+  list-style-type: none;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-shadow: rgb(255, 136, 0) 1px 1px 1px;
+  font-size: 17px;
+}
+
+nav a:hover {
+  color: rgb(255, 136, 0);
+}
+
+.nav-404 a{
+  color: orange;
+  text-shadow: 1px 1px white;
+}
+
+.nav-404 a:hover {
+  color: white;
+}
+
+.rodeo {
+  padding:  140px;
+  background-image: url("./images/rodeo-drive.jpg");
+  background-repeat: no-repeat;
+  background-position: 0px -550px;
+  background-size: cover;
+  background-attachment: scroll;
+  color: rgb(255, 136, 0);
+  text-align: center;
+  font-size: 15px;
+  text-shadow: #ddd 1px 1px 1px;
+}
+
+.card {
+    position: relative;
+    top: 100px;
+    height: 710px;
+}
+
+.cards {
+    position: absolute;
+    width: 330px;
+    height: 480px;
+    margin: 5px;
+    border-radius: 7px;
+    background-color: black;
+}
+.cards img {
+    position: absolute;
+    border-radius: 7px;
+    width: 290px;
+    height: 200px;
+    margin: 20px;
+}
+.cards h2 {
+    position: absolute;
+    top: 210px;
+    font-size: 18px;
+    margin: 20px;
+    color: white;
+}
+.cards p {
+    position: absolute;
+    top: 250px;
+    font-size: 15px;
+    margin: 20px;
+    color: white;
+    line-height: 1.4;   
+}
+.skyline {
+  display: flex;
+  justify-content: center;
+  padding:  125px;
+  background-color: black;
+}
+.skyline img {
+  width: 500px;
+}
+.skyline p {
+  width: 500px;
+  color: white;
+}
+
+.last {
+    position: relative;
+    top: 150px;
+    height: 800px;
+    text-align: justify;
+}
+.last .row {
+    position: absolute;
+    top: 15px;
+    left: 230px;
+    height: 260px;
+    width: 1070px;
+}
+.last img{
+  position: relative;
+  height: 220px;
+  width: 330px;
+}
+.last h2 {
+  position: absolute;
+  left:360px;
+  top: 2px;
+  font-size: 25px;
+  margin: 0px;
+  color: white;
+}
+.last p {
+  color: white;
+  position: absolute;
+  top: 50px;
+  margin: 0px;
+  left:360px;
+}
+
+.img-404 {
+  padding: 130px;
+  background-position: 0px -250px;
+  background-image: url("./images/404-featured.jpg");
+  background-color: rgba(255, 136, 0, 0.438);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  text-align: center;
+}
+.p-404{
+  text-align: center;
+  font-size: 22px;
+  margin: 124px;
+  color: white;
+  font-family: Comfortaa;
+  font-weight: bold;
+}
+
+footer {
+  height:250px;
+  background-color: black;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+footer .footer-item{
+  height:200px;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+  width:500px;
+  font-size: 14px;
+  color:white;
+    
+}
+footer .footer-item.footer-quote{
+  margin-top: 65px;
+  text-align: justify; 
+  text-align-last: center;
+}
+
+footer .footer-item.footer-contact a:link{ 
+  text-decoration-line: none; 
+  color:white;
+}
+footer .footer-item.footer-contact a:hover{ 
+  text-decoration-line: underline;
+  color: white;
+}
