@@ -94,12 +94,13 @@ nav a:hover {
   justify-content: center;
   padding:  125px;
   background-color: black;
+  text-align: justify;
 }
 .skyline img {
   width: 500px;
 }
 .skyline p {
-  width: 500px;
+  padding-right: 50px;
   color: white;
 }
 
