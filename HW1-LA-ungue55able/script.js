@@ -1,4 +1,4 @@
-let d_path = "./data.json";
+ let d_path = "./data.json";
 
 
 async function fetchData() {
