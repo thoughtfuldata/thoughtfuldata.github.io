@@ -20,4 +20,3 @@ def index():
         return render_template("index.html", data=pred)
 
     return render_template("index.html")
-
