@@ -10,7 +10,7 @@
             "request": "launch",
             "module": "flask",
             "env": {
-                "FLASK_APP": "HW2-Blood-Pressure/app.py",
+                "FLASK_APP": "HW2-Blood-Pressure-ungue55able/app.py",
                 "FLASK_ENV": "development"
             },
             "args": [
