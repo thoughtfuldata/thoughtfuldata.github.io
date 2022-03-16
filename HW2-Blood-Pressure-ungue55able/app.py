@@ -4,6 +4,7 @@ import pandas as pd
 
 app = Flask(__name__)
 
+base_folder = "HW2-Blood-Pressure-ungue55able/"
 
 @app.route("/", methods=["GET", "POST"])
 def index():
@@ -11,7 +12,7 @@ def index():
         age = request.form["age"]
         weight = request.form["weight"]
 
-        pkl_clf = joblib.load("HW2-Blood-Pressure/regr.pkl")
+        pkl_clf = joblib.load(base_folder + "old_regr.pkl")
         df = pd.DataFrame([[age, weight]], columns=["Age", "Weight"])
 
         pred = pkl_clf.predict(df)[0]
